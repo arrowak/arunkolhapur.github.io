@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;900&display=swap");
+@import "bootstrap.min.css";
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background: #e6e9f3;
+  font-size: 12px;
+  font-weight: 400;
+  color: #222222;
+  min-width: 960px;
+  overflow: scroll;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+h1.legend, h2.legend, h3.legend {
+  border-bottom: 1.5px solid #888;
+  padding-bottom: 10px;
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#background {
+  position: fixed;
+  z-index: -1;
+  background: #eae6d5;
+  width: 100%;
+  height: 30vh;
+}
+
+#main-container {
+  padding: 80px;
+  background: #ffffff;
+  height: 100%;
+  width: 960px;
+  min-width: 960px;
+  overflow: scroll;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+#personal-info {
+  line-height: 3rem;
+}
+#personal-info #name {
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+#personal-info #name #first-name {
+  display: block;
+  font-weight: 300;
+}
+#personal-info #name #last-name {
+  font-weight: 900;
+}
+#personal-info #designation {
+  font-size: 16px;
+}
+#personal-info #meta-info {
+  line-height: 1rem;
+  font-size: 12px;
+  text-align: right;
+}
+#personal-info #meta-info .row {
+  padding-bottom: 10px;
+  text-align: left;
+}
+#personal-info #meta-info i {
+  font-size: medium;
+}
+#personal-info #meta-info span {
+  display: block;
+}
+
+#social-info {
+  font-size: 12px;
+  padding: 10px 0px;
+  border-top: 1.5px solid #888;
+  border-bottom: 1.5px solid #888;
+  margin-top: 20px;
+}
+#social-info i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+#social-info span {
+  padding-left: 5px;
+}
+
+#pp-about {
+  margin-top: 40px;
+}
+#pp-about #profile-pic-wrapper {
+  padding-left: 0px;
+}
+#pp-about #profile-pic-wrapper #pp img {
+  border-radius: 50%;
+  border: 2px solid #222222;
+}
+#pp-about #about-me {
+  padding-right: 0px;
+}
+
+#skills-education {
+  margin-top: 40px;
+}
+#skills-education #personal-skills {
+  padding-left: 0px;
+}
+#skills-education #personal-skills .skill {
+  padding-bottom: 10px;
+}
+#skills-education #personal-skills .skill .progress {
+  border: 1px solid #aaaaaa;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+#skills-education #education {
+  padding-right: 0px;
+}
+#skills-education #education .edu {
+  position: relative;
+  height: 60px;
+}
+#skills-education #education .edu:last-child .year {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+#skills-education #education .edu .year {
+  border-right: 1px solid #555555;
+  height: 100%;
+}
+#skills-education #education .edu .year::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: -6.5px;
+  background-color: white;
+  border: 1px solid #888888;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+}
+#skills-education #education .edu .college {
+  margin-left: -35px;
+}
+
+#experiences-more {
+  margin-top: 40px;
+}
+#experiences-more #hobbies {
+  padding-left: 0;
+}
+#experiences-more #hobbies ul {
+  margin-bottom: 40px;
+}
+#experiences-more #hobbies ul li {
+  padding-bottom: 10px;
+}
+#experiences-more #experiences {
+  padding-right: 0px;
+}
+#experiences-more #experiences .edu {
+  position: relative;
+}
+#experiences-more #experiences .edu:last-child .year {
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+#experiences-more #experiences .edu .year {
+  border-right: 1px solid #555555;
+}
+#experiences-more #experiences .edu .year::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: -6.5px;
+  background-color: white;
+  border: 1px solid #888888;
+  top: 0px;
+  border-radius: 50%;
+  z-index: 1;
+}
+#experiences-more #experiences .edu .college {
+  margin-left: -35px;
+  text-align: justify;
+}
+
+#signature {
+  margin-top: 10px;
+  padding-bottom: 32px;
+}
+
+.animate {
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+/*# sourceMappingURL=styles.css.map */

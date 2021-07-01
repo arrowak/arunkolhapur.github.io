@@ -66,7 +66,7 @@ h1.legend, h2.legend, h3.legend {
 #personal-info #designation {
   font-size: 12px;
   line-height: 1.5;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #personal-info #meta-info {
   line-height: 1rem;
@@ -86,10 +86,10 @@ h1.legend, h2.legend, h3.legend {
 
 #social-info {
   font-size: 12px;
-  padding: 10px 0px;
+  padding: 5px 0px;
   border-top: 1.5px solid #888;
   border-bottom: 1.5px solid #888;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #social-info i {
   font-size: 25px;
@@ -100,7 +100,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #pp-about {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #pp-about #profile-pic-wrapper {
   padding-left: 0px;
@@ -114,7 +114,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #skills-education {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #skills-education #personal-skills {
   padding-left: 0px;
@@ -159,7 +159,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #experiences-more {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #experiences-more #hobbies {
   padding-left: 0;
@@ -200,8 +200,8 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #signature {
-  margin-top: 10px;
-  padding-bottom: 32px;
+  margin-top: 0px;
+/*   padding-bottom: 32px; */
 }
 
 .animate {

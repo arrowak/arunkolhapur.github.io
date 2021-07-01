@@ -64,7 +64,7 @@ h1.legend, h2.legend, h3.legend {
   font-weight: 900;
 }
 #personal-info #designation {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   padding-top: 20px;
 }
@@ -100,7 +100,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #pp-about {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 #pp-about #profile-pic-wrapper {
   padding-left: 0px;
@@ -114,7 +114,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #skills-education {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 #skills-education #personal-skills {
   padding-left: 0px;
@@ -159,7 +159,7 @@ h1.legend, h2.legend, h3.legend {
 }
 
 #experiences-more {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 #experiences-more #hobbies {
   padding-left: 0;

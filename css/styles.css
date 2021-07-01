@@ -65,6 +65,8 @@ h1.legend, h2.legend, h3.legend {
 }
 #personal-info #designation {
   font-size: 16px;
+  line-height: 1.5;
+  padding-top: 20px;
 }
 #personal-info #meta-info {
   line-height: 1rem;
